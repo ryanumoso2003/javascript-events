@@ -26,3 +26,15 @@ demoForm.addEventListener('submit', (event) => {
   event.preventDefault(); 
   formMsg.textContent = 'Form submitted successfully!';
 });
+
+// focus and blur events
+const focusInput = document.getElementById('focusInput');
+const focusMsg = document.getElementById('focusMsg');
+
+focusInput.addEventListener('focus', () => {
+  focusMsg.textContent = 'Input is focused';
+});
+
+focusInput.addEventListener('blur', () => {
+  focusMsg.textContent = 'Input lost focus.';
+});
