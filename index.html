@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events Lab</title>
+</head>
+<body>
+    <h1>JavaScript Event Handling</h1>    
+
+    <!-- mouse events-->
+    <section>
+        <h2>Mouse Events</h2>
+        <button id="mouseBtn">Hover over me</button>
+        <p id="mouseMsg">Waiting for mouse event...</p>
+      </section>
+    
+      <!-- keyboard events -->
+      <section>
+        <h2>Keyboard Events</h2>
+        <input type="text" id="keyInput" placeholder="Type something..." />
+        <p id="keyMsg">Press any key...</p>
+      </section>
+    
+      <!-- form events -->
+      <section>
+        <h2>Form Events</h2>
+        <form id="demoForm">
+          <input type="text" placeholder="Enter name" required />
+          <button type="submit">Submit</button>
+        </form>
+        <p id="formMsg">Waiting for form submission...</p>
+      </section>
+    
+      <!-- focus and blur events -->
+      <section>
+        <h2>Focus & Blur Events</h2>
+        <input type="text" id="focusInput" placeholder="Focus on me!" />
+        <p id="focusMsg">Waiting for focus/blur event...</p>
+      </section>
+    
+      <!-- event delegation -->
+      <section>
+        <h2>Event Delegation</h2>
+        <div id="buttonContainer">
+          <button>Button 1</button>
+          <button>Button 2</button>
+          <button>Button 3</button>
+        </div>
+        <p id="delegateMsg">Click a button above...</p>
+      </section>
+    
+      <script src="script.js"></script>
+</body>
+</html>
